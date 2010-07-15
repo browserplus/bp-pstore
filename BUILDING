@@ -1,0 +1,8 @@
+XXX: Here's roughly how to get it building today
+
+1. git clone git://github.com/browserplus/bp-pstore
+2. cd bp-pstore
+3. mkdir src/build
+4. cd src/build
+5. cmake ..
+6. make
