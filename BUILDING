@@ -4,5 +4,5 @@ XXX: Here's roughly how to get it building today
 2. cd bp-pstore
 3. mkdir src/build
 4. cd src/build
-5. cmake ..
-6. make
+5. cmake ..  (cmake -G "Visual Studio 9 2008" .. on Windows)
+6. make  (devenv PStoreRuby.sln on Windows)
