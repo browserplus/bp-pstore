@@ -55,7 +55,7 @@ cmake -G "Visual Studio 9 2008" ..\src
 call "C:\Program Files\Microsoft Visual Studio 9.0\vc\bin\vcvars32.bat"
 if not %WINTEMP%*==* set TEMP=%WINTEMP%
 if not %WINTMP%*==* set TMP=%WINTMP%
-devenv PStoreService.sln /Build Debug /Project ALL_BUILD
+devenv PStoreRuby.sln /Build Debug /Project ALL_BUILD
         </echo>
         <exec executable="cmd" dir="../build" failonerror="true">
             <arg line="/C x1.bat" />
@@ -79,7 +79,7 @@ cmake -G "Visual Studio 9 2008" ..\src
 call "C:\Program Files\Microsoft Visual Studio 9.0\vc\bin\vcvars32.bat"
 if not %WINTEMP%*==* set TEMP=%WINTEMP%
 if not %WINTMP%*==* set TMP=%WINTMP%
-devenv PStoreService.sln /Build Release /Project ALL_BUILD
+devenv PStoreRuby.sln /Build Release /Project ALL_BUILD
         </echo>
         <exec executable="cmd" dir="../build" failonerror="true">
             <arg line="/C x1.bat" />
