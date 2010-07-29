@@ -21,16 +21,40 @@
         <!-- NO-OP -->
     </target>
     <target name="build_make_debug" unless="is.windows">
-        <!-- NO-OP -->
+        <exec executable="ruby" failonerror="true">
+            <arg line="./build.rb" />
+        </exec>
     </target>
     <target name="build_make_release" unless="is.windows">
-        <!-- NO-OP -->
+        <exec executable="ruby" failonerror="true">
+            <arg line="./build.rb" />
+        </exec>
     </target>
     <target name="build_vc08_debug" if="is.windows">
-        <!-- NO-OP -->
+        <delete file="x1.bat" />
+        <echo file="x1.bat">@echo off
+call "C:\Program Files\Microsoft Visual Studio 9.0\vc\bin\vcvars32.bat"
+if not %WINTEMP%*==* set TEMP=%WINTEMP%
+if not %WINTMP%*==* set TMP=%WINTMP%
+ruby .\build.rb
+        </echo>
+        <exec executable="cmd" failonerror="true">
+            <arg line="/C x1.bat" />
+        </exec>
+        <delete file="x1.bat" />
     </target>
     <target name="build_vc08_release" if="is.windows">
-        <!-- NO-OP -->
+        <delete file="x1.bat" />
+        <echo file="x1.bat">@echo off
+call "C:\Program Files\Microsoft Visual Studio 9.0\vc\bin\vcvars32.bat"
+if not %WINTEMP%*==* set TEMP=%WINTEMP%
+if not %WINTMP%*==* set TMP=%WINTMP%
+ruby .\build.rb
+        </echo>
+        <exec executable="cmd" failonerror="true">
+            <arg line="/C x1.bat" />
+        </exec>
+        <delete file="x1.bat" />
     </target>
     <target name="test_make_debug" unless="is.windows">
         <!-- NO-OP -->
