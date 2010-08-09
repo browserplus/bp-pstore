@@ -37,8 +37,7 @@
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.1)
 
-# looser syntax
-SET(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS 1)
+INCLUDE(${CMAKE_CURRENT_SOURCE_DIR}/../external/bp-service-framework/build_support/BuildConfigs.cmake)
 
 SET(serviceName PStore)
 
