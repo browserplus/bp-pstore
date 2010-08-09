@@ -1,5 +1,5 @@
 #####
-# A CMake build file for the ruby PSTORE service which allows you to
+# A CMake build file for the ruby PStore service which allows you to
 # persistently store lots of data on the client side.
 # 
 # Author: Steve Spencer
