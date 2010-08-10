@@ -39,44 +39,11 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.1)
 
 INCLUDE(${CMAKE_CURRENT_SOURCE_DIR}/../external/bp-service-framework/build_support/BuildConfigs.cmake)
 
-SET(serviceName PStore)
+SET(SERVICE_NAME PStore)
+PROJECT(${SERVICE_NAME}Ruby)
 
-SET(SCRIPT_FILE phash.rb)
+# Ship all *.rb files
+FILE(GLOB_RECURSE SRCS RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "*.rb")
 
-# Name our project
-PROJECT(${serviceName}Ruby)
+BPAddRubyService()
 
-# desired output directory
-SET (outputDir "${CMAKE_CURRENT_BINARY_DIR}/${serviceName}")
-
-# build up the service dir
-FILE(MAKE_DIRECTORY ${outputDir})
-
-CONFIGURE_FILE("${CMAKE_CURRENT_SOURCE_DIR}/manifest.json"
-               "${outputDir}/manifest.json")  
-
-SET(srcs ${SCRIPT_FILE})
-SET(allDeps)
-
-FOREACH(src ${srcs})
-  SET(mySrc "${CMAKE_CURRENT_SOURCE_DIR}/${src}")
-  SET(myDst "${outputDir}/${src}")
-
-  ADD_CUSTOM_COMMAND(
-    OUTPUT ${myDst}
-    DEPENDS ${mySrc}		  
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different ${mySrc} ${myDst}
-  )
-  SET(allDeps ${allDeps} ${myDst})
-ENDFOREACH()
-
-ADD_CUSTOM_TARGET(${serviceName} ALL DEPENDS ${allDeps})
-
-# Pre-build step, build our externals
-#
-ADD_CUSTOM_TARGET(
-    ${serviceName}Externals ALL
-    COMMAND ruby build.rb
-    WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../external"
-    COMMENT Building externals...)
-ADD_DEPENDENCIES(${serviceName} ${serviceName}Externals)
