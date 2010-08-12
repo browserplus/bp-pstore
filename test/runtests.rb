@@ -19,6 +19,9 @@ class TestPStore < Test::Unit::TestCase
   def teardown
   end
 
-  def test_noop
+  def test_load_service
+    # NEEDSWORK!!!  Need to figure out how to host RubyInterpreter to get these tests running
+    #BrowserPlus.run(@service) { |s|
+    #}
   end
 end
