@@ -18,6 +18,7 @@ class TestPStore < Test::Unit::TestCase
     end
     @cwd = File.dirname(File.expand_path(__FILE__))
     @service = File.join(@cwd, "../#{subdir}")
+    @providerDir = File.expand_path(File.join(@cwd, "providerDir"))
     nulldevice = "/dev/null"
     if CONFIG['arch'] =~ /mswin|mingw/
       nulldevice = "NUL"
@@ -34,14 +35,14 @@ class TestPStore < Test::Unit::TestCase
   end
 
   def test_load_service
-    # NEEDSWORK!!!  Need to figure out how to host RubyInterpreter to get these tests running
-    #BrowserPlus.run(@service) { |s|
-    #}
+  # NEEDSWORK!!!  ProviderService stuff needs to work
+  #  BrowserPlus.run(@service, @providerDir) { |s|
+  #  }
   end
 
 #  def test_Pstore
 #    # NEEDSWORK!!!  Need to figure out how to host RubyInterpreter to get these tests running
-#    BrowserPlus.Service::new(@service) { |s|
+#    BrowserPlus.Service::new(@service, @providerDir) { |s|
 #      i = s.allocate(@urlLocal)
 #      # For all .json in cases.
 #      Dir.glob(File.join(@cwd, "cases", "*.json")).each do |f|
