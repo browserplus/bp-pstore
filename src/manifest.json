@@ -1,212 +1,212 @@
 {
-  "type":"dependent",
-  "arguments":{
-      "ScriptFile":"phash.rb"
+  "type": "dependent",
+  "uses": {
+    "corelet": "RubyInterpreter",
+    "version": "4"
   },
-  "uses":{
-      "corelet":"RubyInterpreter",
-      "version":"4"
+  "arguments": {
+    "ScriptFile": "service.rb"
   },
-  "strings":{
-    "it":{
-      "title":"Database locale semplice",
-      "summary":"Permette ai siti autorizzati di memorizzare dati e preferenze sul tuo computer in vece tua. La memorizzazione delle preferenze sul tuo computer generalmente è più sicura e più veloce della memorizzazione su server."
+  "strings": {
+    "it": {
+      "title": "Database locale semplice",
+      "summary": "Permette ai siti autorizzati di memorizzare dati e preferenze sul tuo computer in vece tua. La memorizzazione delle preferenze sul tuo computer generalmente è più sicura e più veloce della memorizzazione su server."
     },
-    "es-US":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-US": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "zh-Hant-HK":{
-      "title":"簡約本機資料庫",
-      "summary":"允許授權的網站代表你在你所用電腦上儲存資料和偏好設定。  與在伺服器上儲存相比，在你的電腦上儲存你的偏好設定，通常會更安全，存取速度亦會更快。"
+    "zh-Hant-HK": {
+      "title": "簡約本機資料庫",
+      "summary": "允許授權的網站代表你在你所用電腦上儲存資料和偏好設定。  與在伺服器上儲存相比，在你的電腦上儲存你的偏好設定，通常會更安全，存取速度亦會更快。"
     },
-    "zh-Hant-TW":{
-      "title":"本機資料庫",
-      "summary":"允許授權的網站在您所用電腦中儲存資料和偏好設定。  比起將儲存伺服器上，在您的電腦中儲存自己的偏好設定，通常會更安全，存取速度亦會更快。"
+    "zh-Hant-TW": {
+      "title": "本機資料庫",
+      "summary": "允許授權的網站在您所用電腦中儲存資料和偏好設定。  比起將儲存伺服器上，在您的電腦中儲存自己的偏好設定，通常會更安全，存取速度亦會更快。"
     },
-    "de":{
-      "title":"Einfache lokale Datenbank",
-      "summary":"Ermöglicht es autorisierten Websites, Daten und Einstellungen auf Ihrem Computer zu speichern. In der Regel ist es sicherer und schneller, Einstellungen lokal auf Ihrem Computer anstatt auf einem Server zu speichern."
+    "de": {
+      "title": "Einfache lokale Datenbank",
+      "summary": "Ermöglicht es autorisierten Websites, Daten und Einstellungen auf Ihrem Computer zu speichern. In der Regel ist es sicherer und schneller, Einstellungen lokal auf Ihrem Computer anstatt auf einem Server zu speichern."
     },
-    "fr":{
-      "title":"Base de données PStore",
-      "summary":"Permet aux sites autorisés de stocker des données et des préférences sur votre ordinateur. Cette configuration permet d'accélérer et de sécuriser les opérations par rapport à un stockage sur serveur."
+    "fr": {
+      "title": "Base de données PStore",
+      "summary": "Permet aux sites autorisés de stocker des données et des préférences sur votre ordinateur. Cette configuration permet d'accélérer et de sécuriser les opérations par rapport à un stockage sur serveur."
     },
-    "hi":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "hi": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "da-DK":{
-      "title":"Simpel lokaldatabase",
-      "summary":"Giver autoriserede websites mulighed for at lagre data og præferencer på din computer på dine vegne. Lagring af præferencer på din computer er normalt mere sikkert og hurtigt end at lagre dem på en server."
+    "da-DK": {
+      "title": "Simpel lokaldatabase",
+      "summary": "Giver autoriserede websites mulighed for at lagre data og præferencer på din computer på dine vegne. Lagring af præferencer på din computer er normalt mere sikkert og hurtigt end at lagre dem på en server."
     },
-    "es-CL":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-CL": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "it-IT":{
-      "title":"Database locale semplice",
-      "summary":"Permette ai siti autorizzati di memorizzare dati e preferenze sul tuo computer in vece tua. La memorizzazione delle preferenze sul tuo computer generalmente è più sicura e più veloce della memorizzazione su server."
+    "it-IT": {
+      "title": "Database locale semplice",
+      "summary": "Permette ai siti autorizzati di memorizzare dati e preferenze sul tuo computer in vece tua. La memorizzazione delle preferenze sul tuo computer generalmente è più sicura e più veloce della memorizzazione su server."
     },
-    "es-PE":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-PE": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "en-GB":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorised sites to store data and preferences on your computer, on your behalf. Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-GB": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorised sites to store data and preferences on your computer, on your behalf. Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "en-IN":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-IN": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "id-ID":{
-      "title":"Simple Local Database",
-      "summary":"Memungkinkan situs yang berotorisasi menyimpan data dan preferensi di komputer Anda, atas nama Anda. Menyimpan preferensi Anda di komputer Anda biasanya akan lebih aman dan lebih cepat dibanding menyimpannya di server."
+    "id-ID": {
+      "title": "Simple Local Database",
+      "summary": "Memungkinkan situs yang berotorisasi menyimpan data dan preferensi di komputer Anda, atas nama Anda. Menyimpan preferensi Anda di komputer Anda biasanya akan lebih aman dan lebih cepat dibanding menyimpannya di server."
     },
-    "fr-CA":{
-      "title":"Base de données locale PStore",
-      "summary":"Permet aux sites autorisés de stocker des données et des préférences sur votre ordinateur. Cette configuration permet d'accélérer et de sécuriser les opérations par rapport à un stockage sur serveur."
+    "fr-CA": {
+      "title": "Base de données locale PStore",
+      "summary": "Permet aux sites autorisés de stocker des données et des préférences sur votre ordinateur. Cette configuration permet d'accélérer et de sécuriser les opérations par rapport à un stockage sur serveur."
     },
-    "es":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "sv":{
-      "title":"Enkel lokal databas",
-      "summary":"Tillåter att godkända webbplatser lagrar data och inställningar på din dator, å dina vägnar.  Det är normalt sett säkrare att lagra dina inställningar på datorn än att lagra dem på en server."
+    "sv": {
+      "title": "Enkel lokal databas",
+      "summary": "Tillåter att godkända webbplatser lagrar data och inställningar på din dator, å dina vägnar.  Det är normalt sett säkrare att lagra dina inställningar på datorn än att lagra dem på en server."
     },
-    "zh":{
-      "title":"简约本地数据库",
-      "summary":"允许授权的网站代表您在您所用电脑上储存数据和首选项。  与在服务器上储存相比，在您的电脑上储存您的首选项，通常会更安全，访问速度亦会更快。"
+    "zh": {
+      "title": "简约本地数据库",
+      "summary": "允许授权的网站代表您在您所用电脑上储存数据和首选项。  与在服务器上储存相比，在您的电脑上储存您的首选项，通常会更安全，访问速度亦会更快。"
     },
-    "es-MX":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-MX": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "ko":{
-      "title":"단순 로컬 데이터베이스",
-      "summary":"허가된 사이트가 사용자를 대신하여 사용자 컴퓨터에 데이터 및 기본 설정을 저장할 수 있게 합니다. 기본 설정을 사용자 컴퓨터에 저장하는 것은 서버에 저장하는 것보다 보통 더 빠르고 안전합니다."
+    "ko": {
+      "title": "단순 로컬 데이터베이스",
+      "summary": "허가된 사이트가 사용자를 대신하여 사용자 컴퓨터에 데이터 및 기본 설정을 저장할 수 있게 합니다. 기본 설정을 사용자 컴퓨터에 저장하는 것은 서버에 저장하는 것보다 보통 더 빠르고 안전합니다."
     },
-    "pt":{
-      "title":"Arquivos locais armazenados",
-      "summary":"Permite que os sites autorizados armazenem dados e preferências em seu computador, em seu nome.  Geralmente, armazenar suas preferências em seu computador é mais seguro e rápido do que armazená-las em um servidor."
+    "pt": {
+      "title": "Arquivos locais armazenados",
+      "summary": "Permite que os sites autorizados armazenem dados e preferências em seu computador, em seu nome.  Geralmente, armazenar suas preferências em seu computador é mais seguro e rápido do que armazená-las em um servidor."
     },
-    "es-CO":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-CO": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "nb-NO":{
-      "title":"Enkel lokal database",
-      "summary":"Gir godkjente nettsteder tillatelse til å lagre data og innstillinger på datamaskinen på vegne av deg.  Det er vanligvis sikrere og raskere å lagre innstillingene dine på datamaskinen fremfor å lagre dem på en server."
+    "nb-NO": {
+      "title": "Enkel lokal database",
+      "summary": "Gir godkjente nettsteder tillatelse til å lagre data og innstillinger på datamaskinen på vegne av deg.  Det er vanligvis sikrere og raskere å lagre innstillingene dine på datamaskinen fremfor å lagre dem på en server."
     },
-    "id":{
-      "title":"Simple Local Database",
-      "summary":"Memungkinkan situs yang berotorisasi menyimpan data dan preferensi di komputer Anda, atas nama Anda. Menyimpan preferensi Anda di komputer Anda biasanya akan lebih aman dan lebih cepat dibanding menyimpannya di server."
+    "id": {
+      "title": "Simple Local Database",
+      "summary": "Memungkinkan situs yang berotorisasi menyimpan data dan preferensi di komputer Anda, atas nama Anda. Menyimpan preferensi Anda di komputer Anda biasanya akan lebih aman dan lebih cepat dibanding menyimpannya di server."
     },
-    "en-AU":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-AU": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "th-TH":{
-      "title":"ฐานข้อมูลภายในพื้นฐาน",
-      "summary":"ไซต์ที่อนุญาตสามารถจัดเก็บข้อมูลและการตั้งค่าไว้ในคอมพิวเตอร์ของคุณแทนคุณได้  โดยปกติการจัดเก็บการตั้งค่าไว้ในคอมพิวเตอร์ของคุณจะปลอดภัยกว่าการจัดเก็บไว้ในเซิร์ฟเวอร์"
+    "th-TH": {
+      "title": "ฐานข้อมูลภายในพื้นฐาน",
+      "summary": "ไซต์ที่อนุญาตสามารถจัดเก็บข้อมูลและการตั้งค่าไว้ในคอมพิวเตอร์ของคุณแทนคุณได้  โดยปกติการจัดเก็บการตั้งค่าไว้ในคอมพิวเตอร์ของคุณจะปลอดภัยกว่าการจัดเก็บไว้ในเซิร์ฟเวอร์"
     },
-    "en-US":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-US": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "sv-SE":{
-      "title":"Enkel lokal databas",
-      "summary":"Tillåter att godkända webbplatser lagrar data och inställningar på din dator, å dina vägnar.  Det är normalt sett säkrare att lagra dina inställningar på datorn än att lagra dem på en server."
+    "sv-SE": {
+      "title": "Enkel lokal databas",
+      "summary": "Tillåter att godkända webbplatser lagrar data och inställningar på din dator, å dina vägnar.  Det är normalt sett säkrare att lagra dina inställningar på datorn än att lagra dem på en server."
     },
-    "de-DE":{
-      "title":"Einfache lokale Datenbank",
-      "summary":"Ermöglicht es autorisierten Websites, Daten und Einstellungen auf Ihrem Computer zu speichern. In der Regel ist es sicherer und schneller, Einstellungen lokal auf Ihrem Computer anstatt auf einem Server zu speichern."
+    "de-DE": {
+      "title": "Einfache lokale Datenbank",
+      "summary": "Ermöglicht es autorisierten Websites, Daten und Einstellungen auf Ihrem Computer zu speichern. In der Regel ist es sicherer und schneller, Einstellungen lokal auf Ihrem Computer anstatt auf einem Server zu speichern."
     },
-    "en-SG":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-SG": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "es-ES":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu ordenador por tí.  Guardar tus preferencias en tu ordenador es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-ES": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu ordenador por tí.  Guardar tus preferencias en tu ordenador es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "fr-FR":{
-      "title":"Base de données PStore",
-      "summary":"Permet aux sites autorisés de stocker des données et des préférences sur votre ordinateur. Cette configuration permet d'accélérer et de sécuriser les opérations par rapport à un stockage sur serveur."
+    "fr-FR": {
+      "title": "Base de données PStore",
+      "summary": "Permet aux sites autorisés de stocker des données et des préférences sur votre ordinateur. Cette configuration permet d'accélérer et de sécuriser les opérations par rapport à un stockage sur serveur."
     },
-    "en-CA":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-CA": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "da":{
-      "title":"Simpel lokaldatabase",
-      "summary":"Giver autoriserede websites mulighed for at lagre data og præferencer på din computer på dine vegne. Lagring af præferencer på din computer er normalt mere sikkert og hurtigt end at lagre dem på en server."
+    "da": {
+      "title": "Simpel lokaldatabase",
+      "summary": "Giver autoriserede websites mulighed for at lagre data og præferencer på din computer på dine vegne. Lagring af præferencer på din computer er normalt mere sikkert og hurtigt end at lagre dem på en server."
     },
-    "zh-Hans":{
-      "title":"简约本地数据库",
-      "summary":"允许授权的网站代表您在您所用电脑上储存数据和首选项。  与在服务器上储存相比，在您的电脑上储存您的首选项，通常会更安全，访问速度亦会更快。"
+    "zh-Hans": {
+      "title": "简约本地数据库",
+      "summary": "允许授权的网站代表您在您所用电脑上储存数据和首选项。  与在服务器上储存相比，在您的电脑上储存您的首选项，通常会更安全，访问速度亦会更快。"
     },
-    "pt-BR":{
-      "title":"Arquivos locais armazenados",
-      "summary":"Permite que os sites autorizados armazenem dados e preferências em seu computador, em seu nome.  Geralmente, armazenar suas preferências em seu computador é mais seguro e rápido do que armazená-las em um servidor."
+    "pt-BR": {
+      "title": "Arquivos locais armazenados",
+      "summary": "Permite que os sites autorizados armazenem dados e preferências em seu computador, em seu nome.  Geralmente, armazenar suas preferências em seu computador é mais seguro e rápido do que armazená-las em um servidor."
     },
-    "vi-VN":{
-      "title":"Cơ sở dữ liệu cục bộ đơn giản",
-      "summary":"Cho phép các trang web (được chỉ định) thay mặt bạn lưu trữ dữ liệu và phần tùy chỉnh trên máy tính của bạn. Việc lưu trữ phần tùy chỉnh trên máy tính của bạn thường an toàn và nhanh hơn lưu trên máy chủ."
+    "vi-VN": {
+      "title": "Cơ sở dữ liệu cục bộ đơn giản",
+      "summary": "Cho phép các trang web (được chỉ định) thay mặt bạn lưu trữ dữ liệu và phần tùy chỉnh trên máy tính của bạn. Việc lưu trữ phần tùy chỉnh trên máy tính của bạn thường an toàn và nhanh hơn lưu trên máy chủ."
     },
-    "es-VE":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-VE": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora por tí.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "vi":{
-      "title":"Cơ sở dữ liệu cục bộ đơn giản",
-      "summary":"Cho phép các trang web (được chỉ định) thay mặt bạn lưu trữ dữ liệu và phần tùy chỉnh trên máy tính của bạn. Việc lưu trữ phần tùy chỉnh trên máy tính của bạn thường an toàn và nhanh hơn lưu trên máy chủ."
+    "vi": {
+      "title": "Cơ sở dữ liệu cục bộ đơn giản",
+      "summary": "Cho phép các trang web (được chỉ định) thay mặt bạn lưu trữ dữ liệu và phần tùy chỉnh trên máy tính của bạn. Việc lưu trữ phần tùy chỉnh trên máy tính của bạn thường an toàn và nhanh hơn lưu trên máy chủ."
     },
-    "zh-Hant":{
-      "title":"本機資料庫",
-      "summary":"允許授權的網站在您所用電腦中儲存資料和偏好設定。  比起將儲存伺服器上，在您的電腦中儲存自己的偏好設定，通常會更安全，存取速度亦會更快。"
+    "zh-Hant": {
+      "title": "本機資料庫",
+      "summary": "允許授權的網站在您所用電腦中儲存資料和偏好設定。  比起將儲存伺服器上，在您的電腦中儲存自己的偏好設定，通常會更安全，存取速度亦會更快。"
     },
-    "en":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "nb":{
-      "title":"Enkel lokal database",
-      "summary":"Gir godkjente nettsteder tillatelse til å lagre data og innstillinger på datamaskinen på vegne av deg.  Det er vanligvis sikrere og raskere å lagre innstillingene dine på datamaskinen fremfor å lagre dem på en server."
+    "nb": {
+      "title": "Enkel lokal database",
+      "summary": "Gir godkjente nettsteder tillatelse til å lagre data og innstillinger på datamaskinen på vegne av deg.  Det er vanligvis sikrere og raskere å lagre innstillingene dine på datamaskinen fremfor å lagre dem på en server."
     },
-    "th":{
-      "title":"ฐานข้อมูลภายในพื้นฐาน",
-      "summary":"ไซต์ที่อนุญาตสามารถจัดเก็บข้อมูลและการตั้งค่าไว้ในคอมพิวเตอร์ของคุณแทนคุณได้  โดยปกติการจัดเก็บการตั้งค่าไว้ในคอมพิวเตอร์ของคุณจะปลอดภัยกว่าการจัดเก็บไว้ในเซิร์ฟเวอร์"
+    "th": {
+      "title": "ฐานข้อมูลภายในพื้นฐาน",
+      "summary": "ไซต์ที่อนุญาตสามารถจัดเก็บข้อมูลและการตั้งค่าไว้ในคอมพิวเตอร์ของคุณแทนคุณได้  โดยปกติการจัดเก็บการตั้งค่าไว้ในคอมพิวเตอร์ของคุณจะปลอดภัยกว่าการจัดเก็บไว้ในเซิร์ฟเวอร์"
     },
-    "en-NZ":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorised sites to store data and preferences on your computer, on your behalf. Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-NZ": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorised sites to store data and preferences on your computer, on your behalf. Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "ko-KR":{
-      "title":"단순 로컬 데이터베이스",
-      "summary":"허가된 사이트가 사용자를 대신하여 사용자 컴퓨터에 데이터 및 기본 설정을 저장할 수 있게 합니다. 기본 설정을 사용자 컴퓨터에 저장하는 것은 서버에 저장하는 것보다 보통 더 빠르고 안전합니다."
+    "ko-KR": {
+      "title": "단순 로컬 데이터베이스",
+      "summary": "허가된 사이트가 사용자를 대신하여 사용자 컴퓨터에 데이터 및 기본 설정을 저장할 수 있게 합니다. 기본 설정을 사용자 컴퓨터에 저장하는 것은 서버에 저장하는 것보다 보통 더 빠르고 안전합니다."
     },
-    "zh-Hans-CN":{
-      "title":"简约本地数据库",
-      "summary":"允许授权的网站代表您在您所用电脑上储存数据和首选项。  与在服务器上储存相比，在您的电脑上储存您的首选项，通常会更安全，访问速度亦会更快。"
+    "zh-Hans-CN": {
+      "title": "简约本地数据库",
+      "summary": "允许授权的网站代表您在您所用电脑上储存数据和首选项。  与在服务器上储存相比，在您的电脑上储存您的首选项，通常会更安全，访问速度亦会更快。"
     },
-    "es-AR":{
-      "title":"Base de datos local simple",
-      "summary":"Permite que los sitios autorizados guarden datos y preferencias en tu computadora, en lugar de tener que hacerlo vos.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
+    "es-AR": {
+      "title": "Base de datos local simple",
+      "summary": "Permite que los sitios autorizados guarden datos y preferencias en tu computadora, en lugar de tener que hacerlo vos.  Guardar tus preferencias en tu computadora es normalmente más seguro y rápido que guardarlos en un servidor."
     },
-    "en-MY":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-MY": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "hi-IN":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "hi-IN": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorised sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     },
-    "en-PH":{
-      "title":"Simple Local Database",
-      "summary":"Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
+    "en-PH": {
+      "title": "Simple Local Database",
+      "summary": "Allows authorized sites to store data and preferences on your computer, on your behalf.  Storing your preferences on your computer is usually safer and faster than storing them on a server."
     }
   }
 }
